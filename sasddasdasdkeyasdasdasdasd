@@ -1,0 +1,319 @@
+
+local GOOd = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
+local UIGradient = Instance.new("UIGradient")
+local Panel_Roundify_12px = Instance.new("ImageLabel")
+local FedoraSText = Instance.new("TextLabel")
+local FedoraSType = Instance.new("TextLabel")
+local Slogan = Instance.new("TextLabel")
+local CheckSystem_Roundify_12px = Instance.new("ImageLabel")
+local Input_Roundify_12px = Instance.new("ImageLabel")
+local LoginHeaderText = Instance.new("TextLabel")
+local PleaseEnterKeyText = Instance.new("TextLabel")
+local CheckSystem = Instance.new("TextButton")
+local CoolThing = Instance.new("TextLabel")
+local Input = Instance.new("TextBox")
+
+GOOd.Name = "GOOd"
+GOOd.Parent = game.CoreGui
+GOOd.DisplayOrder = 100
+GOOd.ResetOnSpawn = false
+
+Frame.Name = "Frame"
+Frame.Parent = GOOd
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.37364158, 0, 0.346437395, 0)
+Frame.Size = UDim2.new(0, 409, 0, 249)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(36, 36, 36)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = Frame
+
+Panel_Roundify_12px.Name = "Panel_Roundify_12px"
+Panel_Roundify_12px.Parent = Frame
+Panel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Panel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Panel_Roundify_12px.BackgroundTransparency = 1.000
+Panel_Roundify_12px.Position = UDim2.new(0.500809789, 0, 0.0998074263, 0)
+Panel_Roundify_12px.Size = UDim2.new(1, 0, 0.205882356, 0)
+Panel_Roundify_12px.Image = "rbxassetid://3570695787"
+Panel_Roundify_12px.ImageColor3 = Color3.fromRGB(16, 16, 16)
+Panel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Panel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Panel_Roundify_12px.SliceScale = 0.120
+
+FedoraSText.Name = "FedoraS-Text"
+FedoraSText.Parent = Panel_Roundify_12px
+FedoraSText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FedoraSText.BackgroundTransparency = 1.000
+FedoraSText.Position = UDim2.new(-0.00488997577, 0, -0.000947713852, 0)
+FedoraSText.Size = UDim2.new(0, 197, 0, 41)
+FedoraSText.Font = Enum.Font.GothamBlack
+FedoraSText.Text = "FedoraS "
+FedoraSText.TextColor3 = Color3.fromRGB(255, 85, 0)
+FedoraSText.TextScaled = true
+FedoraSText.TextSize = 47.000
+FedoraSText.TextWrapped = true
+
+FedoraSType.Name = "FedoraSType"
+FedoraSType.Parent = FedoraSText
+FedoraSType.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FedoraSType.BackgroundTransparency = 1.000
+FedoraSType.Position = UDim2.new(0.828737855, 0, 0.50532794, 0)
+FedoraSType.Size = UDim2.new(0, 47, 0, 13)
+FedoraSType.Font = Enum.Font.GothamBlack
+FedoraSType.Text = "Login"
+FedoraSType.TextColor3 = Color3.fromRGB(255, 85, 0)
+FedoraSType.TextScaled = true
+FedoraSType.TextSize = 14.000
+FedoraSType.TextWrapped = true
+
+Slogan.Name = "Slogan"
+Slogan.Parent = FedoraSText
+Slogan.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slogan.BackgroundTransparency = 1.000
+Slogan.Position = UDim2.new(0.138663411, 0, 0.860000014, 0)
+Slogan.Size = UDim2.new(0, 200, 0, 8)
+Slogan.Font = Enum.Font.GothamBlack
+Slogan.Text = "The Login With a Really Bad Key System"
+Slogan.TextColor3 = Color3.fromRGB(255, 85, 0)
+Slogan.TextSize = 11.000
+
+CheckSystem_Roundify_12px.Name = "CheckSystem_Roundify_12px"
+CheckSystem_Roundify_12px.Parent = Frame
+CheckSystem_Roundify_12px.Active = true
+CheckSystem_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+CheckSystem_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CheckSystem_Roundify_12px.BackgroundTransparency = 1.000
+CheckSystem_Roundify_12px.Position = UDim2.new(0.501222491, 0, 0.767068148, 0)
+CheckSystem_Roundify_12px.Selectable = true
+CheckSystem_Roundify_12px.Size = UDim2.new(0.449877739, 0, 0.13654618, 0)
+CheckSystem_Roundify_12px.Image = "rbxassetid://3570695787"
+CheckSystem_Roundify_12px.ImageColor3 = Color3.fromRGB(16, 16, 16)
+CheckSystem_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+CheckSystem_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+CheckSystem_Roundify_12px.SliceScale = 0.120
+
+Input_Roundify_12px.Name = "Input_Roundify_12px"
+Input_Roundify_12px.Parent = Frame
+Input_Roundify_12px.Active = true
+Input_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Input_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Input_Roundify_12px.BackgroundTransparency = 1.000
+Input_Roundify_12px.Position = UDim2.new(0.478646636, 0, 0.552208841, 0)
+Input_Roundify_12px.Selectable = true
+Input_Roundify_12px.Size = UDim2.new(0.858190715, 0, 0.124497995, 0)
+Input_Roundify_12px.Image = "rbxassetid://3570695787"
+Input_Roundify_12px.ImageColor3 = Color3.fromRGB(16, 16, 16)
+Input_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Input_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Input_Roundify_12px.SliceScale = 0.120
+
+LoginHeaderText.Name = "Login Header Text"
+LoginHeaderText.Parent = Frame
+LoginHeaderText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LoginHeaderText.BackgroundTransparency = 1.000
+LoginHeaderText.Position = UDim2.new(0.00325471093, 0, 0.204819277, 0)
+LoginHeaderText.Size = UDim2.new(0, 408, 0, 50)
+LoginHeaderText.Font = Enum.Font.GothamBlack
+LoginHeaderText.Text = "Login"
+LoginHeaderText.TextColor3 = Color3.fromRGB(255, 85, 0)
+LoginHeaderText.TextScaled = true
+LoginHeaderText.TextSize = 14.000
+LoginHeaderText.TextWrapped = true
+
+PleaseEnterKeyText.Name = "PleaseEnterKeyText"
+PleaseEnterKeyText.Parent = Frame
+PleaseEnterKeyText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PleaseEnterKeyText.BackgroundTransparency = 1.000
+PleaseEnterKeyText.Position = UDim2.new(0.251833737, 0, 0.405622512, 0)
+PleaseEnterKeyText.Size = UDim2.new(0, 200, 0, 21)
+PleaseEnterKeyText.Font = Enum.Font.Code
+PleaseEnterKeyText.Text = "Please Enter Your Key To Enter"
+PleaseEnterKeyText.TextColor3 = Color3.fromRGB(255, 85, 0)
+PleaseEnterKeyText.TextSize = 14.000
+
+CheckSystem.Name = "CheckSystem"
+CheckSystem.Parent = Frame
+CheckSystem.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CheckSystem.BackgroundTransparency = 1.000
+CheckSystem.BorderSizePixel = 0
+CheckSystem.Position = UDim2.new(0.305703461, 0, 0.696318448, 0)
+CheckSystem.Size = UDim2.new(0, 171, 0, 34)
+CheckSystem.Font = Enum.Font.GothamBlack
+CheckSystem.Text = "Whitelist"
+CheckSystem.TextColor3 = Color3.fromRGB(255, 85, 0)
+CheckSystem.TextScaled = true
+CheckSystem.TextSize = 14.000
+CheckSystem.TextWrapped = true
+
+CoolThing.Name = "CoolThing"
+CoolThing.Parent = Frame
+CoolThing.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+CoolThing.BorderSizePixel = 0
+CoolThing.Position = UDim2.new(0.0759999976, 0, 0.600000024, 0)
+CoolThing.Size = UDim2.new(0, 6, 0, 1)
+CoolThing.Font = Enum.Font.SourceSans
+CoolThing.Text = ""
+CoolThing.TextColor3 = Color3.fromRGB(0, 0, 0)
+CoolThing.TextSize = 14.000
+
+Input.Name = "Input"
+Input.Parent = Frame
+Input.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+Input.BackgroundTransparency = 1.000
+Input.BorderSizePixel = 0
+Input.Position = UDim2.new(-0.00163511548, 0, 0.430000037, 0)
+Input.Size = UDim2.new(0, 409, 0, 59)
+Input.ClearTextOnFocus = false
+Input.Font = Enum.Font.Code
+Input.PlaceholderColor3 = Color3.fromRGB(255, 85, 0)
+Input.PlaceholderText = "Enter Your Key Here"
+Input.Text = ""
+Input.TextColor3 = Color3.fromRGB(255, 85, 0)
+Input.TextSize = 14.000
+
+-- Scripts:
+
+local function SDYRRZV_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	 
+	local Main = script.Parent
+	 
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	 
+	local function update(input)
+	    local delta = input.Position - dragStart
+	    Main.Position = Main:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed
+	end
+	 
+	Main.InputBegan:Connect(function(input)
+	    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+	        dragging = true
+	        dragStart = input.Position
+	        startPos = Main.Position
+	       
+	        input.Changed:Connect(function()
+	            if input.UserInputState == Enum.UserInputState.End then
+	                dragging = false
+	            end
+	        end)
+	    end
+	end)
+	 
+	Main.InputChanged:Connect(function(input)
+	    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	        dragInput = input
+	    end
+	end)
+	 
+	UserInputService.InputChanged:Connect(function(input)
+	    if input == dragInput and dragging then
+	        update(input)
+	    end
+	end)
+end
+coroutine.wrap(SDYRRZV_fake_script)()
+
+
+local function VSSI_fake_script() -- GOOd.LocalScript 
+	local script = Instance.new('LocalScript', GOOd)
+
+	local Frame = script.Parent.Frame
+	local CheckSystem = script.Parent.Frame.CheckSystem
+	local CoolThing = script.Parent.Frame.CoolThing
+	local Input = script.Parent.Frame.Input
+	CoolThing.Visible = false
+	
+	--Those local scripts create a home so yea
+	Input.MouseEnter:Connect(function()
+		CoolThing.Visible = true
+		CoolThing:TweenSize(UDim2.new(0, 255,0, 1))
+		
+	end)
+	
+	Input.MouseLeave:Connect(function()
+		CoolThing:TweenSize(UDim2.new(0, 1,0, 1))
+		wait(1)
+		CoolThing.Visible = false
+		
+	end)
+	
+	CheckSystem.MouseButton1Down:Connect(function()
+		if Input.Text == "Scp173" or Input.Text == "Early"  then
+			Frame:TweenPosition(UDim2.new(0.417, 0.417 ,0 , 1080))
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Login Successful!";
+		Text = "Enjoy FedoraS Hub!";
+		Duration = 3;
+		})
+		
+			wait(1)
+			Frame.Visible = false
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/NNPeanut/AHSGDIASGDIAGOAGSDGA/master/sfsfsadfsfdasefwq%20fsdafeasfad'))()
+
+			
+		end
+	end)
+end
+coroutine.wrap(VSSI_fake_script)()
+local function FMSMT_fake_script() -- CoolThing.LocalScript 
+	local script = Instance.new('LocalScript', CoolThing)
+
+	while true do 
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(i, 0, n)
+	wait() 
+	end
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3= Color3.new(n, i, 0)
+	wait()
+	end
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(0, n, i)
+	wait() 
+	end 
+	end
+end
+coroutine.wrap(FMSMT_fake_script)()
+local function LFQE_fake_script() -- Input.LocalScript 
+	local script = Instance.new('LocalScript', Input)
+
+	while true do 
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(i, 0, n)
+	wait() 
+	end
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3= Color3.new(n, i, 0)
+	wait()
+	end
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(0, n, i)
+	wait() 
+	end 
+	end
+end
+coroutine.wrap(LFQE_fake_script)()
