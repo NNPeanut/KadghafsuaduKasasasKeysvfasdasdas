@@ -250,7 +250,7 @@ local function VSSI_fake_script() -- GOOd.LocalScript
 	end)
 	
 	CheckSystem.MouseButton1Down:Connect(function()
-		if Input.Text == "Scp173" or Input.Text == "Early"  then
+		if Input.Text == "Scp173" or Input.Text == "Beta" or Input.Text == "Grump0" then
 			Frame:TweenPosition(UDim2.new(0.417, 0.417 ,0 , 1080))
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "Login Successful!";
